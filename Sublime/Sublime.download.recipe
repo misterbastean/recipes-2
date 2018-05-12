@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Sublime Text update.</string>
     <key>Identifier</key>
-    <string>alex.autopkg.download.sublime</string>
+    <string>com.github.alexnagase.recipes.download.sublime</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

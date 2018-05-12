@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Sublime Text 3 update and imports latest update into Munki Apeel catalog.</string>
     <key>Identifier</key>
-    <string>alex.autopkg.munki.sublime</string>
+    <string>com.github.alexnagase.recipes.munki.sublime</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -33,7 +33,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>alex.autopkg.download.sublime</string>
+    <string>com.github.alexnagase.recipes.download.sublime</string>
     <key>Process</key>
     <array>
         <dict>
