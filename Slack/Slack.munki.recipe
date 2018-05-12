@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Slack update and imports latest Slack update into Munki Apeel catalog.</string>
     <key>Identifier</key>
-    <string>alex.autopkg.munki.slack</string>
+    <string>com.github.alexnagase.recipes.munki.slack</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -21,7 +21,7 @@
             <key>description</key>
             <string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
             <key>category</key>
-            <string>Communications</string>
+            <string>Communication</string>
             <key>display_name</key>
             <string>Slack</string>
             <key>name</key>
@@ -33,7 +33,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>alex.autopkg.download.slack</string>
+    <string>com.github.alexnagase.recipes.download.slack</string>
     <key>Process</key>
     <array>
         <dict>

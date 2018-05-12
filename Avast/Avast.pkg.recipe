@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads latest Avast update and builds Avast update into a pkg.</string>
     <key>Identifier</key>
-    <string>alex.autopkg.pkg.avast</string>
+    <string>com.github.alexnagase.recipes.pkg.avast</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Avast</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>alex.autopkg.download.avast</string>
+    <string>com.github.alexnagase.recipes.download.avast</string>
     <key>Process</key>
     <array>
         <dict>

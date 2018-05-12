@@ -5,13 +5,13 @@
     <key>Description</key>
     <string>Downloads latest Slack update and installs slack.</string>
     <key>Identifier</key>
-    <string>alex.autopkg.install.slack</string>
+    <string>com.github.alexnagase.recipes.install.slack</string>
     <key>Input</key>
     <dict/>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>alex.autopkg.download.slack</string>
+    <string>com.github.alexnagase.recipes.download.slack</string>
     <key>Process</key>
     <array>
         <dict>
