@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest Slack update and imports latest Slack update into Munki Apeel catalog.</string>
+    <string>Downloads the latest WhatsApp update and imports latest WhatsApp update into Munki Apeel catalog.</string>
     <key>Identifier</key>
-    <string>com.github.apeelsciences.recipes.munki.slack</string>
+    <string>com.github.apeelsciences.recipes.munki.whatsapp</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
