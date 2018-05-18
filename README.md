@@ -1,2 +1,2 @@
 # recipes
-recipes for autopkg
+autoupdating autopkg recipes for Apeel Munki catalog for use in autopkgr
