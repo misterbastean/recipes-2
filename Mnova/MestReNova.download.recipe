@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of MNova by parsing autoupgrade page for latest download URL .</string>
+    <string>Downloads the latest version of MNova by parsing autoupgrade page for latest download URL</string>
     <key>Identifier</key>
-    <string>com.github.apeelsciences.recipes.download.mnova</string>
+    <string>com.github.apeelsciences.recipes.download.MestReNova</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>MestReNova</string>
         <key>SEARCH_URL</key>
-        <string>http://mestrelab.com/auto-upgrade-mnova/</string>
+        <string>https://mestrelab.com/auto-upgrade-mnova/</string>
+        <key>SEARCH_PATTERN</key>
+        <string>(https?://mestrelab.com/downloads/mnova/mac/MestReNova.*dmg)</string>
                        
     </dict>
     <key>MinimumVersion</key>
@@ -26,7 +28,7 @@
                 <key>url</key>
                 <string>%SEARCH_URL%</string>
                 <key>re_pattern</key>
-                <string>(?&lt=\Mac\s)(\S+)</string>
+                <string>%SEARCH_PATTERN%</string>
             </dict>
         </dict>
        
@@ -42,6 +44,7 @@
                 <string>%NAME%.dmg</string>
             </dict>
         </dict>
+
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
