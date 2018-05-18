@@ -5,11 +5,11 @@
     <key>Description</key>
     <string>Downloads the latest version of MNova by parsing autoupgrade page for latest download URL</string>
     <key>Identifier</key>
-    <string>com.github.apeelsciences.recipes.download.MestReNova</string>
+    <string>com.github.apeelsciences.recipes.download.mnova</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>MestReNova</string>
+        <string>MNova</string>
         <key>SEARCH_URL</key>
         <string>https://mestrelab.com/auto-upgrade-mnova/</string>
         <key>SEARCH_PATTERN</key>

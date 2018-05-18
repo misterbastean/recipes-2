@@ -4,6 +4,7 @@
 <dict>
     <key>Description</key>
     <string>Downloads the latest Slack update and imports latest Slack update into Munki Apeel catalog.</string>
+
     <key>Identifier</key>
     <string>com.github.alexnagase.recipes.munki.slack</string>
     <key>Input</key>
@@ -15,7 +16,7 @@
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
-            <array>
+            <array>s
                 <string>Apeel</string>
             </array>
             <key>description</key>
