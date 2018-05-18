@@ -13,7 +13,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>MestReNova</string>
+		<string>mnova</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,7 +21,9 @@
 				<string>Apeel</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>A top class software suite to process your analytical chemistry data</string>
+			<key>category</key>
+            <string>Communication</string>
 			<key>developer</key>
 			<string>MESTRELAB RESEARCH, S.L.</string>
 			<key>display_name</key>
