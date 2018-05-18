@@ -16,7 +16,7 @@
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
-            <array>s
+            <array>
                 <string>Apeel</string>
             </array>
             <key>description</key>
