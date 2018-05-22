@@ -33,7 +33,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.github.apeelsciences.autopkg.download.yed</string>
+    <string>com.github.apeelsciences.recipes.download.yed</string>
     <key>Process</key>
     <array>
         <dict>
