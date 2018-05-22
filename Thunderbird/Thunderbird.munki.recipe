@@ -27,6 +27,8 @@ See the following URLs for more info:
             <string>Mozilla Thunderbird is a free and open source mail client.</string>
             <key>display_name</key>
             <string>Mozilla Thunderbird</string>
+            <key>category</key>
+            <string>Communication</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>

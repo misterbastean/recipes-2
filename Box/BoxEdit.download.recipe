@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest verison of Box Edit</string>
     <key>Identifier</key>
-    <string>alex.autopkg.download.boxedit</string>
+    <string>com.github.apeelsciences.recipes.download.boxedit</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
