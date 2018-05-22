@@ -41,7 +41,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>alex.autopkg.download.box</string>
+    <string>com.github.apeelsciences.recipes.download.box</string>
     <key>Process</key>
     <array>
         <dict>
