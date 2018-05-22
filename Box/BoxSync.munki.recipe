@@ -3,45 +3,38 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Download the latest version of Box and imports it into Munki.</string>
+    <string>Imports latest version of Box Sync into Munki Apeel catalog hopefully</string>
+
     <key>Identifier</key>
-    <string>com.github.apeelsciences.recipes.munki.box</string>
+    <string>com.github.apeelsciences.recipes.munki.boxsync</string>
     <key>Input</key>
     <dict>
+        <key>NAME</key>
+        <string>Box Sync</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/box</string>
-        <key>NAME</key>
-        <string>Box</string>
         <key>pkginfo</key>
         <dict>
-            <key>blocking_applications</key>
-            <array>
-                <string>Box</string>
-            </array>
             <key>catalogs</key>
             <array>
                 <string>Apeel</string>
             </array>
-            <key>display_name</key>
-            <string>Box Drive</string>
+            <key>description</key>
+            <string>Box Sync is a productivity tool that allows you to mirror data stored on Box to your desktop. You can then navigate and modify content stored on the Box website through your computer’s native file browsing interface, without using a web browser. Content that syncs down to your computer are available for offline access. If you make changes to the synced files locally, these changes automatically sync back up to your Box account.</string>
             <key>category</key>
             <string>Internet</string>
-            <key>developer</key>
-            <string>Box</string>
-            <key>description</key>
-            <string>Box Drive is natively integrated into Windows Explorer and Mac Finder so it's built right into the way you already work.</string>
+            <key>display_name</key>
+            <string>Box Sync</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
-            <true/>
-            <key>unattended_uninstall</key>
             <true/>
         </dict>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.apeelsciences.recipes.download.box</string>
+    <string>com.github.apeelsciences.recipes.download.boxsync</string>
     <key>Process</key>
     <array>
         <dict>
