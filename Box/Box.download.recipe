@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest verison of Box</string>
     <key>Identifier</key>
-    <string>alex.autopkg.download.box</string>
+    <string>com.github.apeelsciences.recipes.download.box</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
