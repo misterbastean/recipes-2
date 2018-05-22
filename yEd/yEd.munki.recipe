@@ -3,22 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads Firefox disk image and imports into Munki.
-Some useful values for RELEASE are: 'latest', 'esr-latest', 'beta-latest'.
-LOCALE controls the language localization to be downloded.
-Examples include 'en-US', 'de', 'sv-SE', and 'zh-TW'
-See the following URLs for more info:
-    http://ftp.mozilla.org/pub/firefox/releases/latest/README.txt
-    http://ftp.mozilla.org/pub/firefox/releases/latest-esr/README.txt
-    http://ftp.mozilla.org/pub/firefox/releases/latest-beta/README.txt</string>
+    <string>Downloads latest yEd Editor app and imports it into Munki</string>
     <key>Identifier</key>
-    <string>com.github.apeelsciences.recipes.munki.firefox-rc-en_US</string>
+    <string>com.github.apeelsciences.recipes.munki.yed</string>
     <key>Input</key>
     <dict>
-        <key>MUNKI_REPO_SUBDIR</key>
-        <string>apps/mozilla</string>
         <key>NAME</key>
-        <string>Firefox</string>
+        <string>yEd</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>apps</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -26,11 +19,11 @@ See the following URLs for more info:
                 <string>Apeel</string>
             </array>
             <key>description</key>
-            <string>Mozilla Firefox is a free and open source web browser.</string>
+            <string>yEd is a powerful desktop application that can be used to quickly and effectively generate high-quality diagrams. Create diagrams manually, or import your external data for analysis. Our automatic layout algorithms arrange even large data sets with just the press of a button.</string>
             <key>display_name</key>
-            <string>Mozilla Firefox</string>
+            <string>yEd</string>
             <key>category</key>
-            <string>Internet</string>
+            <string>Scientific</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
@@ -40,7 +33,7 @@ See the following URLs for more info:
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.apeelsciences.recipes.download.firefox-rc-en_US</string>
+    <string>com.github.github.apeelsciences.autopkg.download.yed</string>
     <key>Process</key>
     <array>
         <dict>
