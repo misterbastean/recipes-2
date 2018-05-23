@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Avast update.</string>
     <key>Identifier</key>
-    <string>com.github.alexnagase.recipes.download.avast</string>
+    <string>com.github.apeelsciences.recipes.download.avast</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
