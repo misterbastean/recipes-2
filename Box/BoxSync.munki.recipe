@@ -25,6 +25,8 @@
             <string>Internet</string>
             <key>display_name</key>
             <string>Box Sync</string>
+            <key>developer</key>
+            <string>Box Inc.</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
