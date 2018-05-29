@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of MestReNova and imports it into Munki.</string>
+	<string>Downloads the latest version of Octave and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.apeelsciences.recipes.munki.mnova</string>
+	<string>com.github.apeelsciences.recipes.munki.octave</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>MNova</string>
+		<string>Octave</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/mnova</string>
+		<string>apps/octave</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -19,13 +19,11 @@
 				<string>Apeel</string>
 			</array>
 			<key>description</key>
-			<string>A top class software suite to process your analytical chemistry data</string>
+			<string>GNU Octave is a high-level interpreted language, primarily intended for numerical computations. It provides capabilities for the numerical solution of linear and nonlinear problems, and for performing other numerical experiments. It also provides extensive graphics capabilities for data visualization and manipulation. Octave is normally used through its interactive command line interface, but it can also be used to write non-interactive programs. The Octave language is quite similar to Matlab so that most programs are easily portable.</string>
 			<key>category</key>
             <string>Scientific</string>
-			<key>developer</key>
-			<string>MESTRELAB RESEARCH, S.L.</string>
 			<key>display_name</key>
-			<string>MestReNova</string>
+			<string>Octave</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -35,7 +33,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.apeelsciences.recipes.download.mnova</string>
+	<string>com.github.apeelsciences.recipes.download.octave</string>
 	<key>Process</key>
 	    <array>
         <dict>
