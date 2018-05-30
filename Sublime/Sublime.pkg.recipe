@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads latest Sublime Text update and builds update into a pkg.</string>
     <key>Identifier</key>
-    <string>com.github.alexnagase.recipes.pkg.sublime</string>
+    <string>com.github.apeelsciences.recipes.pkg.sublime</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Sublime</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.alexnagase.recipes.download.sublime</string>
+    <string>com.github.apeelsciences.recipes.download.sublime</string>
     <key>Process</key>
     <array>
         <dict>

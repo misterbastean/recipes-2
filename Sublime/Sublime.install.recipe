@@ -5,13 +5,13 @@
     <key>Description</key>
     <string>Downloads latest Sublime Text update and installs it.</string>
     <key>Identifier</key>
-    <string>com.github.alexnagase.recipes.install.sublime</string>
+    <string>com.github.apeelsciences.recipes.install.sublime</string>
     <key>Input</key>
     <dict/>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.alexnagase.recipes.download.sublime</string>
+    <string>com.github.apeelsciences.recipes.download.sublime</string>
     <key>Process</key>
     <array>
         <dict>
