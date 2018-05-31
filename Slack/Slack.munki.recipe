@@ -6,7 +6,7 @@
     <string>Downloads the latest Slack update and imports latest Slack update into Munki Apeel catalog.</string>
 
     <key>Identifier</key>
-    <string>com.github.alexnagase.recipes.munki.slack</string>
+    <string>com.github.apeelsciences.recipes.munki.slack</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -34,7 +34,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.alexnagase.recipes.download.slack</string>
+    <string>com.github.apeelsciences.recipes.download.slack</string>
     <key>Process</key>
     <array>
         <dict>
