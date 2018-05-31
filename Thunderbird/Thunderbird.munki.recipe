@@ -28,7 +28,7 @@ See the following URLs for more info:
             <key>display_name</key>
             <string>Mozilla Thunderbird</string>
             <key>category</key>
-            <string>Communication</string>
+            <string>Internet</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
