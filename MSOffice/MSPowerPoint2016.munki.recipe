@@ -50,7 +50,7 @@ installer for the given CHANNEL. 'latest-standalone' does not support
             </array>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Apeel</string>
             </array>
             <key>display_name</key>
             <string>Microsoft PowerPoint</string>
