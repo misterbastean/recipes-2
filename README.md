@@ -1,2 +1,2 @@
 # recipes
-autoupdating autopkg recipes for Apeel Munki catalog for import into autopkgr
+autopkg recipes for use in apeel autopkgr. pulls latest versions of applications into apeel munki catalog.
