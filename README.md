@@ -1,2 +1,2 @@
 # recipes
-autopkg recipes for use in apeel autopkgr. pulls latest versions of applications into apeel munki catalog.
+autopkg recipes for use in autopkgr to update apps in managed software center. pulls latest versions of apps into apeel munki catalog.

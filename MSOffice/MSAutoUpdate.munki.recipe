@@ -35,6 +35,8 @@ Munki.
             <string>Microsoft AutoUpdate</string>
             <key>description</key>
             <string>Updater for Microsoft Office Applications</string>
+            <key>developer</key>
+            <string>Microsoft</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>

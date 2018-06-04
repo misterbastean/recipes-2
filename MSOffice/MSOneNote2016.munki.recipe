@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest PowerPoint 2016 multilingual update pkg,
+    <string>Downloads the latest OneNote 2016 multilingual update pkg,
 appends the version to the end of the filename, and imports into
 Munki.
 
@@ -29,13 +29,13 @@ installer for the given CHANNEL. 'latest-standalone' does not support
 'InsiderFast' CHANNEL.
 </string>
     <key>Identifier</key>
-    <string>com.github.apeelsciences.recipes.munki.MSPowerPoint2016</string>
+    <string>com.github.apeelsciences.recipes.munki.MSOneNote2016</string>
     <key>MinimumVersion</key>
     <string>0.4.2</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>MSPowerPoint2016</string>
+        <string>MSOneNote2016</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/MSOffice</string>
         <key>munki_required_update_name</key>
@@ -44,16 +44,16 @@ installer for the given CHANNEL. 'latest-standalone' does not support
         <dict>
             <key>blocking_applications</key>
             <array>
-                <string>Microsoft PowerPoint</string>
+                <string>Microsoft OneNote</string>
                 <string>Microsoft Error Reporting</string>
                 <string>Microsoft AutoUpdate</string>
             </array>
             <key>catalogs</key>
             <array>
-                <string>Apeel</string>
+                <string>testing</string>
             </array>
             <key>display_name</key>
-            <string>Microsoft PowerPoint</string>
+            <string>Microsoft OneNote</string>
             <key>category</key>
             <string>Productivity</string>
             <key>developer</key>
@@ -65,7 +65,7 @@ installer for the given CHANNEL. 'latest-standalone' does not support
         </dict>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.apeelsciences.recipes.download.MSPowerPoint2016</string>
+    <string>com.github.apeelsciences.recipes.download.MSOneNote2016</string>
     <key>Process</key>
     <array>
         <dict>

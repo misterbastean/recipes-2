@@ -56,6 +56,8 @@ installer for the given CHANNEL. 'latest-standalone' does not support
             <string>Microsoft Word</string>
             <key>category</key>
             <string>Productivity</string>
+            <key>developer</key>
+            <string>Microsoft</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
