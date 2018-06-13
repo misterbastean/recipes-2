@@ -5,11 +5,11 @@
     <key>Description</key>
     <string>Downloads the latest version of Box Sync.</string>
     <key>Identifier</key>
-    <string>com.github.apeelsciences.recipes.download.boxsync</string>
+    <string>com.github.hansen-m.download.boxsync</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>BoxSync</string>
+        <string>Box Sync</string>
         <key>URL</key>
         <string>https://community.box.com/t5/Using-Box-Sync/Installing-Box-Sync/ta-p/85</string>
         <key>USER_AGENT</key>
