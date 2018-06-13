@@ -10,7 +10,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Box Sync</string>
+        <string>BoxSync</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/box</string>
         <key>pkginfo</key>

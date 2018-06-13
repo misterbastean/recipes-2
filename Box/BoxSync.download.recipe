@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Box Sync</string>
+        <string>BoxSync</string>
         <key>URL</key>
         <string>https://community.box.com/t5/Using-Box-Sync/Installing-Box-Sync/ta-p/85</string>
         <key>USER_AGENT</key>
