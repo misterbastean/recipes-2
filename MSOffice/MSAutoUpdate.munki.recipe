@@ -34,7 +34,7 @@ Munki.
             <key>display_name</key>
             <string>Microsoft AutoUpdate</string>
             <key>description</key>
-            <string>Updater for Microsoft Office Applications</string>
+            <string>Microsoft AutoUpdate makes sure your copy of Office will always be up-to-date with the latest security fixes and improvements. If you are an Office 365 subscriber, you'll also receive the newest features and tools.</string>
             <key>developer</key>
             <string>Microsoft</string>
             <key>name</key>
