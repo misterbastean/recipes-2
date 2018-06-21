@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of GoToMeeting and imports it into Apeel Munki.</string>
+    <string>Downloads the latest version of GoToMeeting and imports it into Munki.</string>
     <key>Identifier</key>
     <string>com.github.apeelsciences.recipes.munki.GoToMeeting</string>
     <key>Input</key>
@@ -24,8 +24,6 @@
             <string>Citrix Systems, Inc.</string>
             <key>display_name</key>
             <string>GoToMeeting</string>
-            <key>category</key>
-            <string>Communication</string
             <key>name</key>
             <string>%NAME%</string>
             <key>preinstall_script</key>
