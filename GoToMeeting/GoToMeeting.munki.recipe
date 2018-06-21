@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
-        <string>apps/GoToMeeting</string>
+        <string>apps/gotomeeting</string>
         <key>NAME</key>
         <string>GoToMeeting</string>
         <key>pkginfo</key>
