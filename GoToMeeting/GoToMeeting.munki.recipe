@@ -24,6 +24,8 @@
             <string>Citrix Systems, Inc.</string>
             <key>display_name</key>
             <string>GoToMeeting</string>
+            <key>category</key>
+            <string>Communication</string
             <key>name</key>
             <string>%NAME%</string>
             <key>preinstall_script</key>
