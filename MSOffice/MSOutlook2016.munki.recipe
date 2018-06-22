@@ -53,7 +53,7 @@ installer for the given CHANNEL. 'latest-standalone' does not support
                 <string>Apeel</string>
             </array>
             <key>display_name</key>
-            <string>Microsoft Outlook for Mac</string>
+            <string>Microsoft Outlook</string>
             <key>developer</key>
             <string>Microsoft</string>
             <key>category</key>
