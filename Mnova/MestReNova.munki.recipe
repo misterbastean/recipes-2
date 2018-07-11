@@ -28,6 +28,13 @@
 			<string>MestReNova</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>postinstall_script</key>
+	<string>#!/bin/bash
+# Install the helper tool so there is no prompt for Admin Credentials
+/bin/mkdir -p /Library/Application\ Support/Mestrelab\ Research\ S.L./MestReNova/cache
+/bin/touch /Library/Application\ Support/Mestrelab\ Research\ S.L./MestReNova/cache/runtime.cache
+
+/bin/chmod -R 777 /Library/Application\ Support/Mestrelab\ Research\ S.L./MestReNova/cache/</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
