@@ -22,7 +22,12 @@
                 <string>Apeel</string>
             </array>
             <key>description</key>
-            <string>Box Sync is a productivity tool that allows you to mirror data stored on Box to your desktop. You can then navigate and modify content stored on the Box website through your computer’s native file browsing interface, without using a web browser. Content that syncs down to your computer are available for offline access. If you make changes to the synced files locally, these changes automatically sync back up to your Box account.</string>
+            <string>Box Sync is a productivity tool that allows you to mirror data stored on Box to your desktop. You can then navigate and modify content stored on the Box website through your computer’s native file browsing interface, without using a web browser. Content that syncs down to your computer are available for offline access. If you make changes to the synced files locally, these changes automatically sync back up to your Box account.
+
+    There are known issues with having both Box Sync and Box Drive installed on a single machine. We recommend uninstalling Box Drive before installing Box Sync.
+
+    Use Box Sync if you need offline file access functionality.
+            </string>
             <key>category</key>
             <string>Internet</string>
             <key>display_name</key>
