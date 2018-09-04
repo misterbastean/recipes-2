@@ -3,31 +3,21 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Download recipe for ImageJ, which downloads a zip file containing the latest stable version of ImageJ for Mac OS X. ImageJ is an image processing package which display, edit, analyze, process, save and print 8-bit, 16-bit and 32-bit images.</string>
+    <string>Litelapse</string>
     <key>Identifier</key>
-    <string>com.github.apeelsciences.recipes.download.ImageJ</string>
+    <string>com.github.apeelsciences.recipes.download.Litelapse</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>ImageJ</string>
+        <string>Litelapse</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://jenkins.imagej.net/job/ImageJ/lastSuccessfulBuild/artifact/target/imagej-latest.zip</string>
+        <string>http://apeelstaff.com/static/app_download/Litelapse.zip</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>
     <array>
-        <dict>
-            <key>Processor</key>
-            <string>URLTextSearcher</string>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>http://rsbweb.nih.gov/ij/notes.html</string>
-                <key>re_pattern</key>
-                <string>Version (?P&lt;version&gt;[0-9a-z\.]*)</string>
-            </dict>
-        </dict>
+        
         <dict>
             <key>Processor</key>
             <string>URLDownloader</string>
