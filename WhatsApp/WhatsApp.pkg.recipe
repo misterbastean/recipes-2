@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Slack update and builds Slack update into a pkg.</string>
+    <string>Downloads latest Whatsapp update and builds  update into a pkg.</string>
     <key>Identifier</key>
     <string>com.github.apeelsciences.recipes.pkg.whatsapp</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Slack</string>
+        <string>Whatsapp</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.apeelsciences.recipes.download.whatsapp</string>
