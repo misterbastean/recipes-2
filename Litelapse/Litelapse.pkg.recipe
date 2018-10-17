@@ -10,6 +10,8 @@
     <dict>
         <key>NAME</key>
         <string>Litelapse</string>
+        <key>PATH</key>
+        <string>/Applications/%NAME%.app</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.apeelsciences.recipes.download.Litelapse</string>
@@ -28,7 +30,7 @@
                 <key>pkgdirs</key>
                 <dict>
                     <key>Applications</key>
-                    <string>01775</string>
+                    <string>0775</string>
                 </dict>
             </dict>
         </dict>
@@ -40,11 +42,12 @@
                 <key>archive_path</key>
                 <string>%pathname%</string>
                 <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
+                <string>%pkgroot%/Applications</string>
                 <key>purge_destination</key>
                 <true/>
             </dict>
         </dict>
+        
         <dict>
             <key>Comment</key>
             <string>Get Litelapse version from the app contents</string>
@@ -53,7 +56,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%RECIPE_CACHE_DIR%/Litelapse/Litelapse.app/Contents/Info.plist</string>
+                <string>%RECIPE_CACHE_DIR%/Litelapse/%PATH%/Contents/Info.plist</string>
                 <key>plist_version_key</key>
                 <string>CFBundleShortVersionString</string>
             </dict>
@@ -69,13 +72,25 @@
                 <dict>
                     <key>pkgname</key>
                     <string>%NAME%</string>
+                    <key>pkgdir</key>
+                    <string>%RECIPE_CACHE_DIR%</string>
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
                     <string>com.apeel.litelapse</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
-                    
+                    <key>chown</key>
+                    <array>
+                        <dict>
+                            <key>path</key>
+                            <string>Applications</string>
+                            <key>user</key>
+                            <string>root</string>
+                            <key>group</key>
+                            <string>admin</string>
+                        </dict>
+                    </array>
                     
                 </dict>
             </dict>
