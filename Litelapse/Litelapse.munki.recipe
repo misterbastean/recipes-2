@@ -23,7 +23,7 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>Litelapse
+			<string>Allows users to create time-lapse videos from stacks of images.
 			</string>
 			<key>developer</key>
 			<string>Apeel</string>
