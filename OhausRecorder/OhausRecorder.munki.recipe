@@ -23,7 +23,7 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>OhausRecorder
+			<string>Need an application whose convenience is majorly outweighed by its unreliability? This is the app for you. As Steve likes to say when using this to measure fruit masses in an organized and automated fashion, “Tim, it’s super broken again.”
 			</string>
 			<key>developer</key>
 			<string>Apeel</string>
