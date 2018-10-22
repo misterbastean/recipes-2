@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Slack</string>
+        <string>Avast</string>
         <key>DOWNLOAD_URL</key>
         <string>https://install.avcdn.net/mac-av/10_9/AAFM/avast_security_online.dmg</string>
     </dict>
